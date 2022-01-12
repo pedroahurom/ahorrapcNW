@@ -19,7 +19,7 @@ class homeController extends Controller
         
         //$useract = Auth::user();
         //echo $useract;
-        return view('home.blade', compact('plantilla'));//requiere el compact xd aun nose paque
+        return view('home', compact('plantilla'));//requiere el compact xd aun nose paque
     }
 
     
