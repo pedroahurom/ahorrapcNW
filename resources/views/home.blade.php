@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="{{asset('css/home.css')}}">
 @endsection
 @section('title','Inicio')
-@endsection
 @section('content')
 <div id="pantalla_carga" class="pantalla">
     <img src="{{asset('img/piggy (1).svg')}}" alt="">
